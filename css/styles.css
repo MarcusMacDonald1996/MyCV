@@ -36,7 +36,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #3D3635;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +48,14 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+.title {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Abril Fatface", "Bebas Neue Regular", "Bebas Neue Book", "Bebas Neue Bold", Elmono, "LEMON MILK", "LEMON MILK Bold", "LEMON MILK Light", "LEMON MILK Medium";
+}
+.title-small {
+    font-family: "Abril Fatface", "Bebas Neue Regular", "Bebas Neue Book", "Bebas Neue Bold", Elmono, "LEMON MILK", "LEMON MILK Bold", "LEMON MILK Light", "LEMON MILK Medium";
+    font-weight: bold;
+    font-size: 24px;
 }

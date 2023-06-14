@@ -1,23 +1,21 @@
 /* Use this file to use your own styles*/
 
-/* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap'); 
 
 
 /* Styles for the body */
 
-@font-face {
-	font-family: 'Anton';
-	src: url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@300;400&display=swap');
-}
 
 body {
-	font-family: "Rubik", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	color: #f8f8fc;
 	background-color: #f8f8fc;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
+.marcus-education {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: cornsilk;
+}
 
 .resume-header {
     background-color: #9d855d;

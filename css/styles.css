@@ -1,9 +1,15 @@
 /* Use this file to use your own styles*/
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap'); 
+
 
 /* Styles for the body */
+
+@font-face {
+	font-family: 'Anton';
+	src: url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:wght@300;400&display=swap');
+}
 
 body {
 	font-family: "Rubik", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; 
@@ -49,16 +55,9 @@ body {
 	height: 1em;
 	flex-basis: 1.4em;
 }
-.title {
-    font-weight: bold;
-    font-size: 50px;
-    font-family: "Abril Fatface", "Bebas Neue Regular", "Bebas Neue Book", "Bebas Neue Bold", Elmono, "LEMON MILK", "LEMON MILK Bold", "LEMON MILK Light", "LEMON MILK Medium";
-}
-.title-small {
-    font-family: "Abril Fatface", "Bebas Neue Regular", "Bebas Neue Book", "Bebas Neue Bold", Elmono, "LEMON MILK", "LEMON MILK Bold", "LEMON MILK Light", "LEMON MILK Medium";
-    font-weight: bold;
-    font-size: 24px;
-}
 .language-progress {
 	background-color: #000000 !important}
 
+.color {
+	color:#4D3319
+}
